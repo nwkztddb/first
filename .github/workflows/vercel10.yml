@@ -1,7 +1,7 @@
 name: vercel10-ubuntu
 on:
   schedule:
-    - cron: '*/55 * * * *' # Run every day at midnight
+    - cron: '* * * 1 *' # Run every day at midnight
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
